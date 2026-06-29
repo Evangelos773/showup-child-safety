@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BEFORE PUBLISHING — edit the two placeholders below:
+    1. Contact email  (search for: trust-safety@showup.app)
+    2. "Last updated" date is set automatically to today; change if needed.
+  Then host this file at a public URL (see options your developer gave you)
+  and paste that URL into Google Play Console →
+    Policy → App content → Child safety standards.
+  ============================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Showup — Child Safety Standards (CSAE Policy)</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 22px 80px;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 4px; }
+    h2 { font-size: 1.25rem; margin-top: 2.2em; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 1.5em; }
+    .lead { font-size: 1.05rem; }
+    ul { padding-left: 1.3em; }
+    li { margin: 6px 0; }
+    a { color: #c81d4d; }
+    code, .contact { background: #f4f4f6; padding: 2px 6px; border-radius: 5px; }
+    footer { margin-top: 3em; color: #777; font-size: 0.85rem; border-top: 1px solid #e5e5e5; padding-top: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Showup — Child Safety Standards</h1>
+  <p class="meta">Standards against Child Sexual Abuse and Exploitation (CSAE) &middot; Last updated: <span id="date"></span></p>
+
+  <p class="lead">
+    Showup is a dating application intended exclusively for adults aged 18 and over.
+    We have <strong>zero tolerance</strong> for child sexual abuse and exploitation (CSAE),
+    child sexual abuse material (CSAM), and any content or conduct that endangers
+    children. This page sets out the standards we apply to keep minors off our platform
+    and to detect, remove, and report CSAE.
+  </p>
+
+  <h2>1. Prohibited content and conduct</h2>
+  <p>The following are strictly prohibited on Showup and will result in immediate removal and account termination:</p>
+  <ul>
+    <li>Child sexual abuse material (CSAM) in any form, including real, computer-generated, animated, or AI-generated imagery depicting minors.</li>
+    <li>Sexualization of minors, including sexual commentary about, or sexualized depictions of, anyone under 18.</li>
+    <li>Grooming, solicitation, or any attempt to engage, lure, or coerce a minor into sexual activity or the production of sexual content.</li>
+    <li>Sextortion, trafficking, or facilitation of the sexual exploitation of minors.</li>
+    <li>Use of the service by anyone under the age of 18, or misrepresentation of age to access the service.</li>
+  </ul>
+
+  <h2>2. Minimum age and age assurance</h2>
+  <ul>
+    <li>Showup is restricted to users <strong>18 years of age or older</strong>. Users must confirm they meet this requirement at registration.</li>
+    <li>We act on any signal that a user may be a minor, including profile information, user reports, and content review, by removing the account.</li>
+    <li>Accounts reasonably believed to belong to a minor are suspended pending review and terminated where confirmed.</li>
+  </ul>
+
+  <h2>3. Prevention, detection, and moderation</h2>
+  <ul>
+    <li>We maintain in-app mechanisms for users to <strong>report</strong> profiles, messages, images, and behavior that may involve CSAE.</li>
+    <li>Reported content is reviewed promptly, and content that violates these standards is removed.</li>
+    <li>We may use automated and manual review to detect prohibited content and conduct.</li>
+    <li>We take enforcement action including content removal, account suspension, and permanent banning of offending users and associated accounts.</li>
+  </ul>
+
+  <h2>4. Reporting to authorities</h2>
+  <p>
+    When we become aware of apparent CSAM or the sexual exploitation of a child, we
+    preserve the relevant data as permitted by law and report it to the appropriate
+    authorities. In the United States this includes reporting to the
+    <a href="https://report.cybertip.org/" target="_blank" rel="noopener">National Center for Missing &amp; Exploited Children (NCMEC) CyberTipline</a>.
+    We cooperate with law enforcement and respond to valid legal requests.
+  </p>
+
+  <h2>5. How users and the public can report CSAE</h2>
+  <p>
+    Anyone can report suspected CSAE on Showup, in addition to the in-app reporting tools,
+    by contacting our Trust &amp; Safety team:
+  </p>
+  <p>Email: <span class="contact">trust-safety@showup.app</span></p>
+  <p>
+    If a child is in immediate danger, contact your local emergency services first.
+    In the U.S. you may also report directly to the NCMEC CyberTipline at
+    <a href="https://report.cybertip.org/" target="_blank" rel="noopener">report.cybertip.org</a>
+    or call 1-800-843-5678.
+  </p>
+
+  <h2>6. Designated point of contact</h2>
+  <p>
+    Showup maintains a designated point of contact for child-safety matters, reachable at
+    <span class="contact">trust-safety@showup.app</span>, for users, the public, and authorities
+    to raise concerns regarding CSAE on the platform.
+  </p>
+
+  <h2>7. Compliance with applicable laws</h2>
+  <p>
+    Showup complies with all applicable child-safety laws in the jurisdictions where it
+    operates, and with Google Play's
+    <a href="https://support.google.com/googleplay/android-developer/answer/14747720" target="_blank" rel="noopener">Child Safety Standards policy</a>.
+    These standards are reviewed and updated periodically.
+  </p>
+
+  <footer>
+    &copy; <span id="year"></span> Showup. These standards are published in compliance with Google Play's
+    Child Sexual Abuse and Exploitation (CSAE) requirements.
+  </footer>
+
+  <script>
+    var now = new Date();
+    document.getElementById('date').textContent =
+      now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    document.getElementById('year').textContent = now.getFullYear();
+  </script>
+</body>
+</html>
